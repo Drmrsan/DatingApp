@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2019.2/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_.19.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p=".vs" t="Include">
+        <e p="DatingApp.API" t="Include">
+          <e p="xs" t="Include">
+            <e p="UserPrefs.xml" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Controllers" t="Include">
+        <e p="ValuesController.cs" t="Include" />
+      </e>
+      <e p="Data" t="Include">
+        <e p="DataContext.cs" t="Include" />
+      </e>
+      <e p="DatingApp.API.csproj" t="IncludeRecursive" />
+      <e p="Models" t="Include">
+        <e p="Value.cs" t="Include" />
+      </e>
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="Startup.cs" t="Include" />
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.2" t="Include">
+            <e p="DatingApp.API.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
