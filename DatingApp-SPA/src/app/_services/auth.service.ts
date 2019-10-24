@@ -21,14 +21,14 @@ export class AuthService {
         map( (response: any) => {
           const user = response;
           if (user) {
-          localStorage.setItem('token', user.token);
-          this.decodedToken = this.jwtHelper.decodeToken(user.token);
+            localStorage.setItem('token', user.token);
+            this.decodedToken = this.jwtHelper.decodeToken(user.token);
           }
         })
       );
   }
 
-  register(model: any){
+  register(model: any) {
     return this.http.post(this.baseUrl + 'register', model);
   }
 
