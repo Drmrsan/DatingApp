@@ -15,13 +15,13 @@
           <div>
             <strong>Age:</strong>
             <p>{{user.age}}</p>
-          </div> //ngx-gallery fix
+          </div>
 
           <div>
             <strong>Last active:</strong>
             <p>{{user.lastActive}}</p>
           </div>
-          
+
           <div>
             <strong>Member since:</strong>
             <p>{{user.created}}</p>
@@ -45,16 +45,16 @@
                 <h4>Looking For</h4>
                 <p>{{user.lookingFor}}</p>
               </tab>
-      
+
               <tab heading="Interests">
                 <h4>Interests</h4>
                 <p>{{user.interests}}</p>
               </tab>
-      
+
               <tab heading="Photos">
                 <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
               </tab>
-      
+
               <tab heading="Messages">
                 <h4>Messages</h4>
                 <p>Messages will go here</p>
